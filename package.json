@@ -1,7 +1,7 @@
 {
-  "name": "vscode-extension-ts-boilerplate",
-  "displayName": "VSCode Extension Ts Boilerplate",
-  "description": "VSCode Extension Ts Boilerplate is a TypeScript-based template for building VS Code extensions with a fully configured development environment and a clean layered architecture ready to extend.",
+  "name": "node-vscode-extension-boilerplate",
+  "displayName": "Node VS Code Extension Boilerplate",
+  "description": "Node VS Code Extension Boilerplate is a TypeScript-based template for building VS Code extensions with a fully configured development environment and a clean layered architecture ready to extend.",
   "version": "1.0.0",
   "private": true,
   "publisher": "DieLibonati",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DiegoLibonati/vscode-extension-ts-boilerplate"
+    "url": "https://github.com/DiegoLibonati/node-vscode-extension-boilerplate"
   },
   "license": "MIT",
-  "homepage": "https://github.com/DiegoLibonati/vscode-extension-ts-boilerplate#readme",
+  "homepage": "https://github.com/DiegoLibonati/node-vscode-extension-boilerplate#readme",
   "bugs": {
-    "url": "https://github.com/DiegoLibonati/vscode-extension-ts-boilerplate/issues"
+    "url": "https://github.com/DiegoLibonati/node-vscode-extension-boilerplate/issues"
   },
   "keywords": [
     "template",
@@ -35,12 +35,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscode-extension-ts-boilerplate.alive",
-        "title": "VSCode Extension Ts Boilerplate: Alive"
+        "command": "node-vscode-extension-boilerplate.alive",
+        "title": "Node VS Code Extension Boilerplate: Alive"
       }
     ],
     "configuration": {
-      "title": "VSCode Extension Ts Boilerplate",
+      "title": "Node VS Code Extension Boilerplate",
       "properties": {}
     }
   },

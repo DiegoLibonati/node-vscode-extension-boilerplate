@@ -1,4 +1,4 @@
-# VSCode Extension Ts Boilerplate
+# Node VS Code Extension Boilerplate
 
 ## Educational Purpose
 
@@ -8,7 +8,7 @@ The main goal is to explore and demonstrate best practices, patterns, and techno
 
 ## Description
 
-**VSCode Extension Ts Boilerplate** is a TypeScript-based template for building VS Code extensions with a fully configured development environment and a clean layered architecture ready to extend.
+**Node VS Code Extension Boilerplate** is a TypeScript-based template for building VS Code extensions with a fully configured development environment and a clean layered architecture ready to extend.
 
 - **What it is:** A production-ready boilerplate for building VS Code extensions with TypeScript — giving you a clean, pre-configured foundation so you can focus on writing your extension's actual logic from day one.
 
@@ -77,7 +77,7 @@ Now that you know what the boilerplate provides, here's how to spin it up locall
 6. Select one of the available configurations:
    - **Run Extension (Build once)** — builds once and launches the Extension Development Host
    - **Run Extension (Watch mode)** — rebuilds on every file save, ideal for active development
-7. In the **Extension Development Host** window, open the Command Palette (`Ctrl+Shift+P`) and run `VSCode Extension Ts Boilerplate: Alive`
+7. In the **Extension Development Host** window, open the Command Palette (`Ctrl+Shift+P`) and run `Node VS Code Extension Boilerplate: Alive`
 
 For active development outside the debug runner, you can run the bundler directly in watch mode:
 
@@ -123,7 +123,7 @@ The only secret in the toolchain belongs to the **publish pipeline**: an Azure D
 With the project running, here's how the codebase is organized:
 
 ```
-vscode-extension-ts-boilerplate/
+node-vscode-extension-boilerplate/
 ├── __tests__/                      # Test suite
 │   ├── __mocks__/                  # Shared mock data and module mocks
 │   │   ├── extensionContext.mock.ts # Mock for vscode.ExtensionContext
@@ -216,7 +216,7 @@ const aliveCommand = (): void => {
 
 export const registerAliveCommand = (): vscode.Disposable => {
   return vscode.commands.registerCommand(
-    "vscode-extension-ts-boilerplate.alive",
+    "node-vscode-extension-boilerplate.alive",
     aliveCommand
   );
 };
@@ -465,4 +465,4 @@ npx vsce publish --pat <YOUR_PAT>
 
 ## Portfolio Link
 
-[`https://www.diegolibonati.com.ar/#/project/vscode-extension-ts-boilerplate`](https://www.diegolibonati.com.ar/#/project/vscode-extension-ts-boilerplate)
+[`https://www.diegolibonati.com.ar/#/project/node-vscode-extension-boilerplate`](https://www.diegolibonati.com.ar/#/project/node-vscode-extension-boilerplate)

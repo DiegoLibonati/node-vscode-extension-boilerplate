@@ -8,7 +8,7 @@ describe("registerAliveCommand", () => {
       registerAliveCommand();
 
       expect(vscode.commands.registerCommand).toHaveBeenCalledWith(
-        "vscode-extension-ts-boilerplate.alive",
+        "node-vscode-extension-boilerplate.alive",
         expect.any(Function)
       );
     });
@@ -38,7 +38,7 @@ describe("registerAliveCommand", () => {
       mockCallback?.();
 
       expect(vscode.window.showInformationMessage).toHaveBeenCalledWith(
-        "Hello world from VSCode Extension Ts Boilerplate."
+        "Hello world from Node VS Code Extension Boilerplate."
       );
     });
 
