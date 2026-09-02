@@ -1,4 +1,4 @@
-# Node VS Code Extension Boilerplate
+# Node VSCode Extension Boilerplate
 
 ## Educational Purpose
 
@@ -8,7 +8,7 @@ The main goal is to explore and demonstrate best practices, patterns, and techno
 
 ## Description
 
-**Node VS Code Extension Boilerplate** is a TypeScript-based template for building VS Code extensions with a fully configured development environment and a clean layered architecture ready to extend.
+**Node VSCode Extension Boilerplate** is a TypeScript-based template for building VS Code extensions with a fully configured development environment and a clean layered architecture ready to extend.
 
 - **What it is:** A production-ready boilerplate for building VS Code extensions with TypeScript — giving you a clean, pre-configured foundation so you can focus on writing your extension's actual logic from day one.
 
